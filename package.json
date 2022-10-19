@@ -1,0 +1,22 @@
+{
+  "name": "sin_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoshanlalPrajapati/Educational-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoshanlalPrajapati/Educational-website/issues"
+  },
+  "homepage": "https://RoshanlalPrajapati.github.io/Educational-website",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

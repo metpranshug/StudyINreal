@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyInReal - Demo</title>
+    <title>StudyInReal - ContactUs</title>
 
     <link rel="shortcut icon" href="icons\ec511657cff446069fa7be0936807de6.png">
 
     <link rel="stylesheet" href="style.css">
-    
+
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
-</head> 
+
+</head>
+
 <body>
     <nav class="sidebar close">
         <header>
             <div class="image-text">
                 <span class="image">
-                    <a href="home.html">  <img src="icons\ec511657cff446069fa7be0936807de6.png" alt="">    </a>
+                    <a href="index.html">  <img src="icons\ec511657cff446069fa7be0936807de6.png" alt="">    </a>
                 </span>
 
-                <div class="text logo-text"> <a href="home.html">  
+                <div class="text logo-text"> <a href="index.html">  
                     <span class="name">Study</span>
                     <span class="profession">In Real</span> </a>
                 </div>
@@ -40,7 +42,7 @@
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="home.html">
+                        <a href="index.html">
                             <i class='bx bxs-home icon' title="home"></i>
                             <span class="text nav-text">Home</span>
                         </a>
@@ -134,10 +136,27 @@
         </ul>
     </div>
 
-    <div class="content">
-        <h1>animated</h1>
+    <div class="container">
+        <form action="">
+            <p class="msg"><span>Send A Message</span></p>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <input type="email" id="email" placeholder="Enter Your Email Account" required>
+            <input type="text" id="phone" placeholder="Enter Your Phone No" required>
+            <select name="Country" id="country">
+                <option value="">India</option>
+                <option value="">Pakistan</option>
+                <option value="">Nepal</option>
+                <option value="">Bhutan</option>
+            </select>
+            <!-- <input type="text" id="country" placeholder="Enter Your Country" required> -->
+            <textarea name="" id="message" rows="5" placeholder="Enter Your Query"></textarea>
+            <button type="submit">Submit</button>
+
+        </form>
+
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
