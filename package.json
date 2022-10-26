@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoshanlalPrajapati/Educational-website.git"
+    "url": "git+https://github.com/RoshanlalPrajapati/educational-site.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RoshanlalPrajapati/Educational-website/issues"
+    "url": "https://github.com/RoshanlalPrajapati/educational-site/issues"
   },
-  "homepage": "https://RoshanlalPrajapati.github.io/Educational-website",
+  "homepage": "https://RoshanlalPrajapati.github.io/educational-site",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }

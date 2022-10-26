@@ -6,6 +6,27 @@ const body = document.querySelector('body'),
       modeText = body.querySelector(".mode-text");
 
 
+    //   function changeMode(){
+    //     var element = document.body
+    //     element.classList.toggle('dark-mode')
+    // }
+
+
+// play pause button
+
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+
+
 toggle.addEventListener("click" , () =>{
     sidebar.classList.toggle("close");
 })
@@ -13,10 +34,6 @@ toggle.addEventListener("click" , () =>{
 searchBtn.addEventListener("click" , () =>{
     sidebar.classList.remove("close");
 })
-
-
-// crousel
-
 
 const productContainers = [...document.querySelectorAll('.product-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
