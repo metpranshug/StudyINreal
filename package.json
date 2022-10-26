@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
  
-  "homepage": "https://RoshanlalPrajapati.github.io/education.git",
+  "homepage": "https://RoshanlalPrajapati.github.io/education",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }
