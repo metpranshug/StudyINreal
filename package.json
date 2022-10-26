@@ -4,18 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+   "deploy":"gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RoshanlalPrajapati/education.git"
-  },
+ 
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RoshanlalPrajapati/education/issues"
-  },
-  "homepage": "https://RoshanlalPrajapati.github.io/education",
+ 
+  "homepage": "https://RoshanlalPrajapati.github.io/education.git",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }
