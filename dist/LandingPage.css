@@ -170,7 +170,7 @@ body{
     justify-content: center;
 }
 
-.pos video{
+.pos #myVideo{
     height: 75vh;
 }
 
