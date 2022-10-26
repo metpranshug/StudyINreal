@@ -170,6 +170,10 @@ body{
     justify-content: center;
 }
 
+.pos video{
+    height: 75vh;
+}
+
 /* play pause button */
 
 #myBtn {
