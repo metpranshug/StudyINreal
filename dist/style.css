@@ -29,6 +29,23 @@ body {
   transition-duration: 1s;
 }
 
+.threedot {
+  height: 5vh;
+  width: 3vw;
+  position: absolute;
+  left: 94vw;
+  display: none;
+}
+
+.threedot span {
+  width: 3vw;
+  height: 5vh;
+  font-size: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 .sidebar {
@@ -497,15 +514,18 @@ form button:hover {
 } */
 
 .product1 {
-  margin-top: 16vh;
-  margin-bottom: 3vh;
-  width: 100%;
-  display: flex;
-  flex-basis: content;
-  align-items: center;
-  justify-content: center;
-  height: 13vh;
-  overflow: hidden;
+    margin-left: 23vw;
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    flex-basis: content;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16vh;
+    margin-bottom: 3vh;
+    height: 13vh;
+    overflow: auto;
+    max-width: 55.3vw;
 }
 
 .product1 span {
@@ -522,25 +542,26 @@ form button:hover {
 
 .product1 .btn-section {
   display: flex;
-  flex-wrap: wrap;
   height: 100%;
+  flex-wrap: wrap;
 }
 
 .product1 button {
   cursor: pointer;
   color: white;
   background-color: rgb(5, 5, 79);
-  padding: 16px;
+  padding: 9px;
   font-size: 16px;
   border: none;
-  width: 11vw;
+  width: 10vw;
   border-radius: 5px;
   margin: auto;
-  height: 8vh;
+  height: 7vh;
 }
 
 .btn-section button {
   margin-left: 3vw;
+  margin-top: 21px;
 }
 
 .product1 button:hover {
@@ -964,6 +985,22 @@ body {
   color: black;
 }
 
+/* scroll-bar */
+.product1::-webkit-scrollbar  {
+  width: 5px;
+}
+.product1::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+.product1::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.product1::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -972,36 +1009,51 @@ body {
     right: -31px;
     height: 29px;
     width: 31px;
+    top: 8vh;
     background-color: red;
   }
 
-  header .image-text .name{
+  header .image-text .name {
     width: 28vw;
     font-size: 0.8rem;
   }
+
   .sidebar header .image img {
     width: 33px;
   }
 
-  header .image-text .profession{
+  header .image-text .profession {
     font-size: 1rem;
   }
 
-  .upNavUl .upNavLi{
-    margin-right: 9px;
+  .upNavUl .upNavLi {
+    margin-right: 15px;
   }
 
-  .upNavUl .upNavLi .upNavText{
+  .upNavUl .upNavLi .upNavText {
     font-size: 11.6px;
   }
 
-  .product1 span{
-    top: 12vh;
+  .product1 span {
+    top: 11vh;
     font-size: 15px;
   }
 
   .product1 {
-    margin-top: 7vh;
+    margin-left: 23vw;
+    object-fit: contain;
+    max-width: 67.3vw;
+    width: 100%;
+    display: flex;
+    flex-basis: content;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+  }
+
+  .btn-section {
+    height: 15.6vh;
+    overflow: auto;
   }
 
   .product1 button {
@@ -1009,18 +1061,21 @@ body {
     font-size: 7px;
     width: 19vw;
     height: 5vh;
+    margin-top: 9px;
   }
 
   .product-category {
     font-size: 24px;
   }
 
-  .product{
+  .product {
     width: 100%;
   }
 
-  .product-container{
+  .product-container {
     left: -15vw;
+    width: 83vw;
+
   }
 
   .subject-dropdown {
@@ -1034,6 +1089,23 @@ body {
     width: 23.4vw;
     height: 5vh;
     padding: 10px;
-}
+  }
+
+  .dropdown-wrap {
+    height: 15.6vh;
+    overflow: auto;
+  }
+
+  .product-card {
+    width: 204px;
+  }
+
+  .upSideNav {
+    width: 115%;
+  }
+
+
+
+  /* sidebar toggle */
 
 }
