@@ -36,8 +36,11 @@ searchBtn.addEventListener("click" , () =>{
 })
 
 const productContainers = [...document.querySelectorAll('.product-container')];
+const productContainers1 = [...document.querySelectorAll('.product-container1')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
+const nxtBtn1 = [...document.querySelectorAll('.nxt-btn1')];
+const preBtn1 = [...document.querySelectorAll('.pre-btn1')];
 
 productContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();
@@ -51,3 +54,16 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+// productContainers1.forEach((item, i) => {
+//     let containerDimensions1 = item.getBoundingClientRect();
+//     let containerWidth1 = containerDimensions1.width;
+
+//     nxtBtn1[i].addEventListener('click', () => {
+//         item.scrollLeft += containerWidth1;
+//     })
+
+//     preBtn1[i].addEventListener('click', () => {
+//         item.scrollLeft -= containerWidth1;
+//     })
+// })
