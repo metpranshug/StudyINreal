@@ -1003,7 +1003,7 @@ body {
 
 
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
   .sidebar header .toggle {
     right: -31px;
@@ -1027,11 +1027,12 @@ body {
   }
 
   .upNavUl .upNavLi {
-    margin-right: 15px;
+    margin-right: 11px;
+
   }
 
   .upNavUl .upNavLi .upNavText {
-    font-size: 11.6px;
+    font-size: 11px;
   }
 
   .product1 span {
@@ -1040,9 +1041,9 @@ body {
   }
 
   .product1 {
-    margin-left: 23vw;
+    margin-left: 8vw;
     object-fit: contain;
-    max-width: 67.3vw;
+    max-width: 90.3vw;
     width: 100%;
     display: flex;
     flex-basis: content;
@@ -1069,7 +1070,7 @@ body {
   }
 
   .product {
-    width: 100%;
+    width: 75vw;
   }
 
   .product-container {
@@ -1081,7 +1082,7 @@ body {
   .subject-dropdown {
     width: 52vh;
     margin-left: 13vw;
-    max-width: 86.3vw;
+    max-width: 87.3vw;
   }
 
   .dropbtn {
@@ -1101,8 +1102,10 @@ body {
   }
 
   .upSideNav {
-    width: 115%;
+    width: 100vw;
   }
+
+  
 
 
 
