@@ -1029,7 +1029,7 @@ body {
 
   .upNavUl .upNavLi {
     margin-right: 11px;
-
+    margin-right: 8px;
   }
 
   .upNavUl .upNavLi .upNavText {
@@ -1037,15 +1037,21 @@ body {
   }
 
   .product1 span {
-    top: 11vh;
     font-size: 15px;
+    left: 16vw;
+    top: 12vh;
+
   }
 
   .product1 {
-    margin-left: 8vw;
+    margin-top: 4vh;
+
+
+    height: 23vh;
+    margin-left: 12vw;
     object-fit: contain;
     max-width: 90.3vw;
-    width: 100%;
+    width: 87vw;
     display: flex;
     flex-basis: content;
     align-items: center;
@@ -1055,7 +1061,11 @@ body {
 
   .btn-section {
     height: 15.6vh;
-    overflow: auto;
+    overflow: auto; 
+  }
+
+  .product1 .btn-section{
+    height: 13vh;
   }
 
   .product1 button {
@@ -1068,6 +1078,7 @@ body {
 
   .product-category {
     font-size: 24px;
+    margin-left: -13vw;
   }
 
   .product {
@@ -1081,7 +1092,7 @@ body {
   }
 
   .subject-dropdown {
-    width: 52vh;
+    width: 44vh;
     margin-left: 13vw;
     max-width: 87.3vw;
   }
@@ -1096,6 +1107,10 @@ body {
   .dropdown-wrap {
     height: 15.6vh;
     overflow: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+
   }
 
   .product-card {
@@ -1104,6 +1119,8 @@ body {
 
   .upSideNav {
     width: 100vw;
+    top: 0;
+    z-index: 1;
   }
 
   .logo-text a{
@@ -1113,6 +1130,46 @@ body {
   .sidebar{
     width: 88%;
   }
+
+  .container{
+    height: 91vh;
+    width: 100vw;
+  }
+
+  .modelsection .videosection #myVideo {
+    width: 59vw;
+    position: relative;
+    top: 15vh;
+  }
+
+  .videosection{
+    top: 100vw;
+    width: 59vw;
+  }
+
+  #myBtn{
+    top: 45vh;
+    left: -5vw;
+    font-size: 0.7rem;
+  }
+
+  .sidebar li{
+    height: 46px;
+  }
+
+  .sidebar{
+    width: 65vw;
+  }
+
+  .sidebar li.search-box input{
+    padding-right: 9px;
+  } 
+
+  .sidebar .menu{
+    margin-top: 0;
+    height: 100vh;
+  }
+
 
   
 
