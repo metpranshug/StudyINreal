@@ -224,6 +224,7 @@ body.dark .sidebar li a:hover .text {
   transition-duration: 1s;
 }
 
+
 .sidebar .menu-bar {
   height: calc(100% - 55px);
   display: flex;
@@ -1007,10 +1008,10 @@ body {
 
   .sidebar header .toggle {
     right: -31px;
-    height: 29px;
+    height: 32px;
     width: 31px;
     top: 8vh;
-    background-color: red;
+    background-color: #05054f;
   }
 
   header .image-text .name {
@@ -1104,6 +1105,16 @@ body {
   .upSideNav {
     width: 100vw;
   }
+
+  .logo-text a{
+    display: none;  
+  }
+
+  .sidebar{
+    width: 88%;
+  }
+
+  
 
   
 
