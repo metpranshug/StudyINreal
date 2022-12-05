@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyInReal - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Aframe Elbow</title>
+    <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@090b5f8f0abe949ddcfdbbc14c75822322a2dd53/dist/aframe-master.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.rawgit.com/tizzle/aframe-orbit-controls-component/master/dist/aframe-orbit-controls-component.min.js"></script>
+    <script src="info-msg.js"></script>
 
     <link rel="shortcut icon" href="icons\ec511657cff446069fa7be0936807de6.png">
 
@@ -126,18 +129,7 @@
 
     </div>
     </div>
-
-    <div class="modelsection">
-        <model-viewer class="elbowjoint" src="models/elbow joint.glb" shadow-intensity="1.5" camera-controls touch-action="pan-y" auto-rotate>
-        </model-viewer>
-
-        <div class="videosection">
-            <video autoplay loop id="myVideo">
-                <source src="models/New folder/WhatsApp Video 2022-10-26 at 2.46.33 PM.mp4" type="video/mp4">
-            </video>
-            <button id="myBtn" onclick="myFunction()">Pause</button>
-        </div>
-    </div>
+        <iframe src="elbow/index.html" width="1825" height="875" align="right"></iframe>
 
     <script src="script.js"></script>
 </body>

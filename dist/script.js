@@ -6,16 +6,17 @@ const body = document.querySelector('body'),
       modeText = body.querySelector(".mode-text");
 
 
+
     //   function changeMode(){
-    //     var element = document.body
+    //     const element = document.body
     //     element.classList.toggle('dark-mode')
     // }
 
 
 // play pause button
 
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
+const video = document.getElementById("myVideo");
+const btn = document.getElementById("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
@@ -67,3 +68,4 @@ productContainers.forEach((item, i) => {
 //         item.scrollLeft -= containerWidth1;
 //     })
 // })
+
