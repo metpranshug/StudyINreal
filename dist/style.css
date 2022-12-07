@@ -1022,9 +1022,20 @@ body {
   display: none;
 }
 
+.elbow{
+    position: absolute;
+    left: 2vw;
+}
+
 
 
 @media screen and (max-width: 600px) {
+
+  .elbow{
+    width: 96vw;
+    height: 95vh;
+  }
+  
 
   .sidebar header .toggle {
     right: -31px;
