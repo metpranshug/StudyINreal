@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-right: 150px;
+    padding-right: 2vw;
 }
 
 .links li {
@@ -152,6 +152,12 @@ body {
     color: white;
     transition-duration: 0.2s;
 }
+
+/* .nav a:nth-child(1){
+    color: white;
+} */
+
+
 
 .dark-mode .linkss a {
     background-color: transparent;
@@ -748,7 +754,7 @@ h3 {
     .text.sec-text{
         font-size: 1.4rem;
         top: -17vh;
-        left: -7vw;
+        left: -9vw;
         height: 5vh;
         width: 44vw;
     }

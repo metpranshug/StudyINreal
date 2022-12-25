@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -80,10 +80,11 @@ body {
 .container .drop .content h3 {
     position: relative;
     color: black;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-.container .drop .content form {
+
+.container .drop .content .form {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -92,7 +93,7 @@ body {
     align-items: center;
 }
 
-.container .drop .content form .inputBox {
+.container .drop .content .form .inputBox {
     position: relative;
     width: 255px;
     box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
@@ -102,13 +103,13 @@ body {
     border-radius: 25px;
 }
 
-.container .drop .content form .inputBox::before {
+.container .drop .content .form .inputBox::before {
     content: '';
     position: absolute;
-    top: 8px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
-    height: 5px;
+    height: 4px;
     width: 65%;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
@@ -116,7 +117,7 @@ body {
 
 }
 
-.container .drop .content form .inputBox input {
+.container .drop .content .form .inputBox input {
     border: none;
     outline: none;
     background: transparent;
@@ -125,16 +126,17 @@ body {
     padding: 10px 15px;
 }
 
-.container .drop .content form .inputBox input[type="submit"] {
+
+.container .drop .content .form .inputBox input[type="submit"] {
     color: #eff0f4;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.1em;
 }
 
-.container .drop .content form .inputBox:last-child {
+.container .drop .content .form .inputBox:last-child {
     box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
         inset -2px -5px 10px rgba(255, 255, 255, 1),
         15px 15px 10px rgba(0, 0, 0, 0.05), 15px 10px 15px rgba(0, 0, 0, 0.025);
@@ -143,7 +145,7 @@ body {
     background-color: rgb(34, 145, 218);
 }
 
-.container .drop .content form .inputBox:last-child:hover {
+.container .drop .content .form .inputBox:last-child:hover {
     width: 150px;
 }
 
@@ -188,10 +190,13 @@ body {
 }
 
 .btns.signup {
-    width: 95px;
-    height: 84px;
-    bottom: 200px;
-    right: -135px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    width: 7vw;
+    height: 12vh;
+    bottom: 6vh;
+    right: 12vw;
     border-radius: 55% 45% 36% 64% / 38% 67% 33% 62%;
     background: rgb(244, 188, 20);
     box-shadow: inset 10px 10px 10px rgba(177, 147, 48, 0.58), 15px 25px 10px rgba(239, 163, 18, 0.31), 15px 20px 20px rgba(183, 164, 109, 0.39), inset -10px -10px 15px rgba(255, 255, 255, 0.1);
@@ -241,4 +246,14 @@ body {
         -o-transform: translateX(-30%) skew(10deg, 0);
 }
 } */
+
+
+@media screen and (max-width: 600px){
+    .container{
+        position: absolute;
+        width: 76vw;
+        height: 61vh;
+        top: 10vh;
+    }
+}
 

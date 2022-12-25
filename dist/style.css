@@ -184,8 +184,8 @@ header .image-text .profession {
 }
 
 .sidebar li.search-box input {
-  height: 100%;
-  width: 100%;
+  position: relative;
+  top: 0;
   outline: none;
   border: none;
   background-color: #F6F5FF;
@@ -873,6 +873,7 @@ body {
   transition-duration: 1s;
 }
 
+
 .dark-mode .nav {
   background-color: #252525;
   color: white;
@@ -884,6 +885,7 @@ body {
   color: white;
   transition-duration: 1s;
 }
+
 
 .dark-mode span {
   color: white;
@@ -1031,12 +1033,17 @@ body {
 
 @media screen and (max-width: 600px) {
 
+  body{
+    height: 100vh;
+    width: 100%;
+  }
+
   .elbow{
-    width: 96vw;
-    height: 95vh;
+    width: 98vw;
+    height: 91vh;
   }
   
-
+  
   .sidebar header .toggle {
     right: -31px;
     height: 32px;
@@ -1052,6 +1059,10 @@ body {
 
   .sidebar header .image img {
     width: 33px;
+  }
+
+  .sidebar header .image-text{
+    margin-left: -3vw;
   }
 
   header .image-text .profession {
