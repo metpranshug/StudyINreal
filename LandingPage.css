@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     /* border-bottom: 2px solid black; */
-    background-color: white;
+    background-color: rgb(252, 252, 252);
     position: fixed;
     height: 13vh;
     width: 100%;
@@ -22,7 +22,6 @@
 }
 
 .nav a:hover {
-    text-decoration: underline;
     color: blue;
 }
 
@@ -62,8 +61,6 @@
 .caption .text{
     position: relative;
     color: #4070F4;
-    font-size: 30px;
-    font-weight: 600;
 }
 
 .text.first-text{
@@ -141,9 +138,43 @@ body {
     transition-duration: 0.2s;
 }
 
+.sun {
+    fill: black;
+}
+
+.dark-mode .sun {
+    fill: white;
+}
+
 .dark-mode .nav {
     background-color: #252525;
     color: white;
+    transition-duration: 0.2s;
+}
+.menu-link {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.menu-link li {
+    color: black;
+    background-color: transparent;
+    font-size: 15px;
+    margin-left: 60px;
+    font-weight: 600;
+}
+
+.menu-link li:hover {
+    text-decoration-color: blue;
+    }
+.dark-mode .menu-link li{
+    background-color: transparent;
+    text-decoration-color: white;
     transition-duration: 0.2s;
 }
 
@@ -174,6 +205,14 @@ body {
 .dark-mode span {
     color: white;
     transition-duration: 0.2s;
+}
+.dark-mode .std-text{
+    color: white;
+}
+.std-text{
+    color: black;
+    font-size: 800;
+    font-weight: 600;
 }
 
 .dark-mode .searchbox {
@@ -216,8 +255,8 @@ body {
 /* darkmode end */
 
 .mod {
-    height: 44vh;
-    width: 55vh;
+    height: auto;
+    width: 20%;
     margin-top: -5vh;
     border: none;
     background-color: rgba(96, 90, 88, 0.233);
@@ -239,7 +278,9 @@ body {
 }
 
 .non-fix-section {
-    margin-top: 8vh;
+    margin-top: 4vh;
+    width: 100%;
+    height: auto;
 }
 
 .down {
@@ -722,7 +763,7 @@ h3 {
 
     .buypack .linkss a{
         font-size: 18px;
-        text-decoration: underline;
+
     }
 
     .buypack .linkss{

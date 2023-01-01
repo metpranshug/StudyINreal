@@ -1,0 +1,42 @@
+.scrolling-words-container {
+    display: flex;
+    align-items: center;
+    font-size: 24rem;
+    font-weight: 900;
+  }
+  
+  .scrolling-words-box {
+    height: 100px;
+    overflow:hidden;
+  }
+  .scrolling-words-box ul {
+    margin: 0 0.625;
+    padding: 10px;
+    animation: scrollUp 3s infinite;
+    align-items: center;
+  }
+  .scrolling-words-box ul h2 {
+    display: flex;
+    justify-content: flex-end;
+    height: 150px;
+  }
+  
+  @keyframes scrollUp {
+    15%, 25% {
+      transform: translateY(-33.3333333333%);
+    }
+    40%, 50% {
+      transform: translateY(-66.6666666667%);
+    }
+  }
+
+  .teach {
+    color: white;
+    background-color: rgb(5, 5, 79);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 10.4vw;
+    border-radius: 5px;
+    margin-left: auto;
+}
