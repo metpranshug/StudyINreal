@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter';font-size: 22px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .material-symbols-outlined {
@@ -915,7 +915,7 @@ body {
 .searchbox {
   width: 31vw;
   padding-left: 54px;
-  height: 43px;
+  height: 44px;
   border-radius: 13px;
 }
 

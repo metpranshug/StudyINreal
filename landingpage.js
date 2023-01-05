@@ -1,4 +1,20 @@
 const text = document.querySelector(".sec-text")
+const textLoad = () =>{
+  setTimeout(() => {
+    text.textContent = "IN BETTER" 
+    text.style.color= "#4070f4" 
+  }, 0);
+  setTimeout(() => {
+    text.textContent = "IN 3D" 
+    text.style.color= "#F53030"
+  }, 4000);
+  setTimeout(() => {
+    text.textContent = "IN REAL"
+    text.style.color= "#ffcb00" 
+  }, 8000);
+}
+textLoad()
+setInterval(textLoad, 12000)
 
 
 function changeMode(){
