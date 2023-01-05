@@ -26,6 +26,14 @@
     color: blue;
 }
 
+.sun {
+    fill: black;
+}
+
+.dark-mode .sun {
+    fill: white;
+}
+
 .links {
     display: flex;
     justify-content: space-around;
