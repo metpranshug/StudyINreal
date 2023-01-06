@@ -899,6 +899,8 @@ body {
   transition-duration: 1s;
 }
 
+.dark-mode
+
 .dark-mode {
   background-color: #181818;
   color: white;
