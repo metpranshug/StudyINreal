@@ -1,7 +1,7 @@
 const text = document.querySelector(".sec-text")
 const textLoad = () =>{
   setTimeout(() => {
-    text.textContent = "IN BETTER" 
+    text.textContent = "BETTER" 
     text.style.color= "#4070f4" 
   }, 0);
   setTimeout(() => {
